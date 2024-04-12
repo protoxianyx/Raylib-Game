@@ -3,12 +3,12 @@
 
 int main(void)
 {
-    InitWindow(800, 450, "raylib [core] example - basic window");
+    InitWindow(800, 450, "Simple C++ Game");
 
     while (!WindowShouldClose())
     {
         BeginDrawing();
-        ClearBackground(RAYWHITE);
+        ClearBackground(BLUE);
         DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
         EndDrawing();
     }
@@ -16,4 +16,6 @@ int main(void)
     CloseWindow();
 
     return 0;
+
+    
 }

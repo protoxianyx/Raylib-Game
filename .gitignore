@@ -5,3 +5,6 @@ build/
 *.vcxproj
 *.vcxproj.*
 
+# Temporary ignore
+CMakeLists.txt
+
