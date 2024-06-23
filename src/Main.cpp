@@ -8,6 +8,10 @@ int main(void)
     SetTargetFPS(60);
 
     Grid grid = Grid();
+    
+    grid.grid[0][0] = 1;
+    grid.grid[3][5] = 4;
+    grid.grid[14][9] = 17;
 
     grid.Print();
 
@@ -16,6 +20,7 @@ int main(void)
         BeginDrawing();
         ClearBackground(BLUE);
         grid.Draw();
+
         EndDrawing();
     }
 
